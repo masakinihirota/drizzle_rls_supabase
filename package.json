@@ -11,8 +11,8 @@
     "db:migrate": "npx drizzle-kit migrate",
     "db:push": "npx drizzle-kit push",
     "db:pull": "npx drizzle-kit pull",
-    "db:seeds": "npx tsx src/db/seeds.ts",
-    "db:reset": "npx tsx src/db/reset.ts"
+    "db:reset": "tsx src/db/reset.ts",
+    "db:seeds": "tsx src/db/seeds.ts"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "^0.10.0",
