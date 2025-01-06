@@ -1,4 +1,3 @@
-// reset.ts
 import { drizzle } from "drizzle-orm/node-postgres";
 import { reset } from "drizzle-seed";
 
@@ -16,4 +15,3 @@ async function main() {
 }
 
 main();
-

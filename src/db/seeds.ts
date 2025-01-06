@@ -1,4 +1,3 @@
-// seed.ts
 import { drizzle } from "drizzle-orm/node-postgres";
 import { seed } from "drizzle-seed";
 

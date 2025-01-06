@@ -29,7 +29,10 @@
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@snaplet/copycat": "^5.1.1",
+    "@snaplet/seed": "^0.98.0",
     "@types/node": "^20",
+    "@types/pg": "^8.11.10",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "drizzle-kit": "^0.30.1",
