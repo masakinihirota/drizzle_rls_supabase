@@ -12,7 +12,8 @@
     "db:push": "npx drizzle-kit push",
     "db:pull": "npx drizzle-kit pull",
     "db:reset": "tsx src/db/reset.ts",
-    "db:seeds": "tsx src/db/seeds.ts"
+    "db:seeds": "tsx src/db/seeds.ts",
+    "db:studio": "npx drizzle-kit studio"
   },
   "dependencies": {
     "@hono/zod-validator": "^0.4.2",
