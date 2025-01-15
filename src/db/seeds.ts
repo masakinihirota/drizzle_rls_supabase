@@ -14,8 +14,13 @@ async function main() {
   console.log("Database URL: ", process.env.DATABASE_URL);
 
   // データを挿入
-  // スキーマの定義を渡す。
-  await seed(db, { users, countries });
+  // スキーマの定義を渡します。
+  // sqlでテーブルを削除してからデータを挿入します。
+  // TRUNCATE TABLE users;
+  // TRUNCATE TABLE countries;
+
+  await seed(db, { users });
+  await seed(db, { countries });
 }
 
 main();

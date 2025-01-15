@@ -7,6 +7,10 @@ export default function Home() {
       <br />
       {/* Honoページへのリンク */}
       <a href="/hono">Hono</a>
+      <br />
+      <br />
+      {/* ユーザーページへのリンク */}
+      <a href="/users">ユーザーページ</a>
     </div>
   );
 }
