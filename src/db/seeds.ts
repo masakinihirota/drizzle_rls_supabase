@@ -10,8 +10,8 @@ dotenv.config()
 
 async function main() {
   const db = drizzle(process.env.DATABASE_URL!);
-  console.log("Seeding database...");
-  console.log("Database URL: ", process.env.DATABASE_URL);
+  console.log("🚀 ~ Seeding database...");
+  console.log("🚀 ~ Database URL: ", process.env.DATABASE_URL);
 
   // データを挿入
   // スキーマの定義を渡します。

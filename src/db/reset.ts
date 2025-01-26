@@ -9,8 +9,8 @@ dotenv.config()
 
 async function main() {
   const db = drizzle(process.env.DATABASE_URL!);
-  console.log("Rest database...");
-  console.log("Database URL: ", process.env.DATABASE_URL);
+  console.log("🚀 ~ Rest database...");
+  console.log("🚀 ~ Database URL: ", process.env.DATABASE_URL);
   await reset(db, { users });
 }
 

@@ -1,16 +1,15 @@
 'use client';
 
 import { supabase } from '@/lib/supabase';
-
-import { FcGoogle } from 'react-icons/fc';
+// import { FcGoogle } from 'react-icons/fc';
 import { FaGithub } from 'react-icons/fa';
 
 export function SocialLoginButtons() {
   // 確認
-  console.log('SocialLoginButtons');
+  console.log('🚀 ~ SocialLoginButtons');
   const handleGithubLogin = async () => {
     // 確認
-    console.log('handleGithubLogin');
+    console.log('🚀 ~ handleGithubLogin');
     await supabase.auth.signInWithOAuth({
       provider: 'github',
       options: {
